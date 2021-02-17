@@ -15,15 +15,17 @@ p {
 	font-size: 30px;
 }
 
-/* try uncommenting below to see text changes on hover */
-
 p:hover {
-	letter-spacing: 2px;
-	border:solid yellow
+	border: solid yellow;
 	transform: translate(70px, 50px) rotate(50deg);
 	width: 200px;
-	height: 100px
-	text-transform:lowercase;
+	height: 100px;
+}
+
+/* try uncommenting below to see text changes on hover */
+
+/*p:hover {
+	letter-spacing: 2px;
 }
 
 
@@ -62,10 +64,10 @@ https://css-tricks.com/the-shapes-of-css/
     filter: blur(30px);
 
 .oval {
-	width: 300px;
-	height: 100px;
-	background: #39d9e0;
-	border-radius: 150px / 50px;
+ width: 300px;
+ height: 100px;
+ background: blue;
+ border-radius: 150px / 50px;
 }
 
 .sliver {
