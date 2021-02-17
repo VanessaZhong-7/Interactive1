@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	background:#2700ff69;
 }
 
 /* type */
@@ -11,13 +12,18 @@ body{
 /* text */
 
 p {
-	font-size: 22px;
+	font-size: 30px;
 }
 
 /* try uncommenting below to see text changes on hover */
 
 p:hover {
 	letter-spacing: 2px;
+	border:solid yellow
+	transform: translate(70px, 50px) rotate(50deg);
+	width: 200px;
+	height: 100px
+	text-transform:lowercase;
 }
 
 
@@ -47,20 +53,25 @@ https://css-tricks.com/the-shapes-of-css/
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
-	background: black;
+	background: pink;
+	position:fixed;
 }
+
+.circle:hover {
+    background: purple; 
+    filter: blur(30px);
 
 .oval {
 	width: 300px;
 	height: 100px;
-	background: black;
+	background: #39d9e0;
 	border-radius: 150px / 50px;
 }
 
 .sliver {
 	width: 300px;
 	height: 40px;
-	background: black;
+	background: yellow;
 	border-radius: 150px / 20px;
 }
 
@@ -69,16 +80,20 @@ https://css-tricks.com/the-shapes-of-css/
 .rect {
 	width: 40px;
 	height: 437px;
-	background: black;
+	background: lightyellow;
 	display: inline-block;
 	margin: 0px 5px;
 }
+
+.rect:hover {
+    background: blue; 
+    filter: blur(30px);
 
 
 /* stars */
 
 .star {
-	background: black;
+	background: skyblue;
 	width: 80px;
 	height: 80px;
 	position: relative;
@@ -96,7 +111,7 @@ https://css-tricks.com/the-shapes-of-css/
 	left: 0;
 	height: 80px;
 	width: 80px;
-	background: black;
+	background: purple;
 }
 
 .star:before {
@@ -106,6 +121,7 @@ https://css-tricks.com/the-shapes-of-css/
 .star:after {
 	transform: rotate(60deg);
 }
+
 p: hover {
 	opacity:0.3;
 	transition:0.3s;
