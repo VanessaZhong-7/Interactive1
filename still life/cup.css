@@ -34,6 +34,31 @@ body{
     z-index: 0;
     
 }
+.flower{
+    width: 280px;
+    height: 100px;
+    background:hotpink;
+    border-radius: 50px;
+    margin-top: 2000px;
+}
+
+.flower2{
+    width: 280px;
+    height: 100px;
+    background:hotpink;
+    border-radius: 50px;
+    transform:rotate(60deg);
+    position: absolute;
+}
+
+.flower3{
+    width: 280px;
+    height: 100px;
+    background:hotpink;
+    border-radius: 50px;
+    transform:rotate(-60deg);
+    position: absolute;
+}
 
 .inline{
     display: inline-block;

@@ -1,0 +1,30 @@
+body{
+
+}
+.bounding-box{
+    position: relative;
+    width:3000px;
+    height:4000px;
+    background:white;
+    top:50px;
+    right:100px;
+}
+
+.rectangular{
+	width:50px;
+	height:600px;
+	background:#c6b6e2;
+	top:50px;
+	right:100px;
+}
+
+.triangle-topleft{
+	width:0;
+	height:0;
+	border-top:400px solid #c6b6e2;
+	border-right:400px solid transparent;
+	top:50px;
+	right:100px;
+	
+
+}

@@ -62,6 +62,7 @@ https://css-tricks.com/the-shapes-of-css/
 .circle:hover {
     background: purple; 
     filter: blur(30px);
+ }
 
 .oval {
  width: 300px;
@@ -90,6 +91,7 @@ https://css-tricks.com/the-shapes-of-css/
 .rect:hover {
     background: blue; 
     filter: blur(30px);
+ }
 
 
 /* stars */
