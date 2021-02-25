@@ -1,4 +1,10 @@
+@font-face {
+  font-family: "stick";
+  src: url("../assets/fonts/Stick-Regular.ttf") format("ttf");
+}
+
 body {
+	font-family:stick;
 	background: yellow;
 	color: purple
 	font-size: 50px;

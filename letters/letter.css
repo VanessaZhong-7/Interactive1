@@ -27,6 +27,7 @@ body{
 	top:250px;
 	left:150px;
 	position:absolute;
+	display: block;
  }
 
 .rectangular-a1{

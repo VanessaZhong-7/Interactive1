@@ -40,6 +40,8 @@ body{
     background:hotpink;
     border-radius: 50px;
     margin-top: 2000px;
+    transform:rotate(0deg);
+    position:absolute;
 }
 
 .flower2{
