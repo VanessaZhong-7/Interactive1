@@ -5,11 +5,11 @@
 
 body {
 	font-family:stick;
-	background: yellow;
+	background: #AEC4F3;
 	color: purple
 	font-size: 50px;
 }
 
 p {
-	background: blue;
+	background: transparent;
 }
