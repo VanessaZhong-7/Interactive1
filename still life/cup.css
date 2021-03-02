@@ -1,67 +1,82 @@
+<style type="text/css">
 body{
-
-}
-
-.tissue{
-    position: relative;
-    width:1000px;
-    height:1000px;
-    background:lightgrey;
-    bottom:100px;
-    right:100px;
-    
-}
-.rectangular{
-    width: 700px;
-    height: 300px;
-    background: blue;
     position: absolute;
-    bottom:10px;
-    right:150px;
-    z-index: 1;
-}
+    }
 
-.rectangular:hover{
-    transform: translate(12px, 50%);
-}
-.square{
-    width: 500px;
-    height: 500px;
-    background: white;
+
+
+.box{
+    height: 230px;
+    width: 220px;
+    animation-iteration-count: infinite;
+    animation-name:blow;
+    animation-duration:2s;
+    animation-timing-function: linear;
+   }
+
+.r1{
+    height: 120px;
+    width: 60px;
+    border-radius: 60px 0px 0px 60px;
+    background:#BECBCF;
     position: absolute;
-    bottom: 180px;
-    right: 250px;
-    z-index: 0;
-    
-}
-.flower{
-    width: 280px;
-    height: 100px;
-    background:hotpink;
-    border-radius: 50px;
-    margin-top: 2000px;
+    top:120px;
+    left: 60px; 
+   }
+
+.r2{
+    height: 60px;
+    width: 120px;
+    background:#6E7D75;
+    border-radius: 60px 60px 0px 0px;
+    position: absolute;
+    top: 60px;
+    }
+
+.r3{
+    height: 60px;
+    width: 120px;
+    background:#CE7870;
+    border-radius: 0px 0px 60px 60px;
+    position: absolute;
+    left: 120px;
+    top: 120px;
+   }
+
+.r4{
+    height: 120px;
+    width: 60px;
+    background:#ECBCB0;
+    border-radius: 0px 60px 60px 0px;
+    position: absolute;
+    left: 120px;
+   }
+
+.c5{
+    height: 20px;
+    width: 20px;
+    background:#826A5F;
+    border-radius: 100px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+   }
+
+.r6{
+    height: 240px;
+    width: 10px;
+    background: #EBA966;
+    position: absolute;
+    top: 120px;
+    left: 115px;
+   }
+
+ @keyframes blow{
+    from{
     transform:rotate(0deg);
-    position:absolute;
-}
-
-.flower2{
-    width: 280px;
-    height: 100px;
-    background:hotpink;
-    border-radius: 50px;
-    transform:rotate(60deg);
-    position: absolute;
-}
-
-.flower3{
-    width: 280px;
-    height: 100px;
-    background:hotpink;
-    border-radius: 50px;
-    transform:rotate(-60deg);
-    position: absolute;
-}
-
-.inline{
-    display: inline-block;
-}
+    }
+    to{
+    transform: rotate(360deg);
+    }
+    }
+  </style>
