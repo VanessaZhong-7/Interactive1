@@ -1,0 +1,40 @@
+* {
+	margin:20px;
+	padding: 20px;
+}
+
+body {
+	background: yellow;	
+}
+
+/* navigation */
+
+nav {
+	padding: 30px;
+}
+
+/* stage */
+
+#showcase {
+	width: 1200px;
+	height: 800px;
+	margin: auto;
+	overflow: visible;
+	position: relative;
+	top: calc(50vh - 400px);
+}
+
+/*img{
+	display: block;
+}*/
+
+/* images */
+
+svg:hover path {
+	transform:rotate(-360deg);
+	background-position:.5;
+	transition:all 2s;
+}
+
+
+}

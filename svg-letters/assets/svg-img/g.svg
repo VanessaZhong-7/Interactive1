@@ -1,0 +1,5 @@
+<svg width="240" height="360" viewBox="0 0 240 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="355" x2="240" y2="355" stroke="black" stroke-width="10"/>
+<line x1="235" x2="235" y2="360" stroke="black" stroke-width="10"/>
+<path d="M240 0V240H0L240 0Z" fill="black"/>
+</svg>
