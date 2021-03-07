@@ -4,7 +4,7 @@
 }
 
 body {
-	background: yellow;	
+	background: #c6b6e2;	
 }
 
 /* navigation */
@@ -14,14 +14,20 @@ nav {
 }
 
 /* stage */
-
-#showcase {
-	width: 1200px;
-	height: 800px;
+#showcase{
+/*
+transform:scale(0.5, 0.5);
+*/
+	transform-origin: center center;
+	width: 1800px;
+	height: 100px;
 	margin: auto;
 	overflow: visible;
 	position: relative;
-	top: calc(50vh - 400px);
+	padding-bottom: 100px;
+/*
+top: calc(50vh - 400px);
+*/
 }
 
 /*img{
@@ -30,11 +36,20 @@ nav {
 
 /* images */
 
+svg{
+	height:180px;
+	width:auto;
+}
+
 svg:hover path {
 	transform:rotate(-360deg);
 	background-position:.5;
 	transition:all 2s;
 }
+svg:hover line{
+	transform:rotate(-360deg);
+	background-position:.5;
+	transition:all 2s;
 
 
 }
