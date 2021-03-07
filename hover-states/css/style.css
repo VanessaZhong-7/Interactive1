@@ -22,6 +22,13 @@ p:hover {
 	height: 100px;
 }
 
+
+* {
+ transition: all 300ms ease;
+ filter: drop-shadow(16px 16px 20px hotpink) invert(.95);
+}
+
+
 /* try uncommenting below to see text changes on hover */
 
 /*p:hover {
@@ -52,11 +59,11 @@ https://css-tricks.com/the-shapes-of-css/
 /* circles */
 
 .circle {
-	width: 300px;
-	height: 300px;
+	width: 150px;
+	height: 150px;
 	border-radius: 150px;
 	background: pink;
-	position:fixed;
+	/*position:fixed;*/
 }
 
 .circle:hover {
@@ -71,12 +78,22 @@ https://css-tricks.com/the-shapes-of-css/
  border-radius: 150px / 50px;
 }
 
+.oval:hover{
+	filter: drop-shadow(16px 30px 10px yellow) invert(50%);
+}
+
 .sliver {
 	width: 300px;
 	height: 40px;
 	background: yellow;
 	border-radius: 150px / 20px;
 }
+
+.sliver:hover {
+    background: lightgreen; 
+    filter: blur(30px);
+}
+
 
 /* square */
 
@@ -89,22 +106,23 @@ https://css-tricks.com/the-shapes-of-css/
 }
 
 .rect:hover {
-    background: blue; 
-    filter: blur(30px);
+    background: yellow; 
+    filter: blur(50px);
+    transition: all 500ms ease;
  }
 
 
 /* stars */
 
 .star {
-	background: skyblue;
+	background: green;
 	width: 80px;
 	height: 80px;
 	position: relative;
 	text-align: center;
-
 	transform-origin: top left;
 	transform: scaleX(2) scaleY(4.25) translateX(10px) translateY(10px);
+	transition-duration:2s;
 }
 
 .star:before,
@@ -115,7 +133,7 @@ https://css-tricks.com/the-shapes-of-css/
 	left: 0;
 	height: 80px;
 	width: 80px;
-	background: purple;
+	background: green;
 }
 
 .star:before {
@@ -125,7 +143,12 @@ https://css-tricks.com/the-shapes-of-css/
 .star:after {
 	transform: rotate(60deg);
 }
+.star:hover {
+    background: purple; 
+    filter: blur(30px);
+}
 
-p: hover {
+/*p: hover {
 	opacity:0.3;
-	transition:0.3s;
+	transition:0.3s;*/
+
