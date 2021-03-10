@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Test</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<div class="random"style="position:absolute">
+	<div class="rectangular-b1"></div>
+	<div class="triangle-topleft-b1"></div>
+</div>
+
+<div class="random"style="position:absolute">
+	<div class="rectangular-b1"></div>
+	<div class="triangle-topleft-b1"></div>
+</div>
+
+<!--hover on everything-->
+<section class="parent">
+  <div></div>
+  <div></div>
+  <div></div>
+</section>
+
+<!--random placement-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+	
+	$(document).ready(function(){
+
+		var windowWidth = $(window).width();
+		var windowHeight = $(window).height();
+
+		// console.log(windowWidth);
+		
+		$('.random').each(function(){
+			
+			var top = 0 + Math.floor(Math.random() * windowHeight);
+			var left = 0 + Math.floor(Math.random() * windowWidth);
+
+			$(this).css({ 'top': top+'px', 'left': left+'px' });
+			
+		});
+	});
+
+</script>
+
+<script src="loudlinks.min.js"></script>
+<div class=“loud-link-click”> ... </div>
+<div class=“loud-link-hover” data-sound="fp.mp3"> ... </div>
+
+</body>
+</html>

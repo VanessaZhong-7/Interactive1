@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Letters</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<!--b-->
+<div class="random"style="position:absolute" >
+	<div class="rectangular-b1 loud-link-click" data-sound="fp" ></div>
+	<div class="triangle-topleft-b1"></div>
+</div>
+
+<!--o-->
+<div class="random"style="position:absolute" >
+	<div class="rectangular-bottom-o1 loud-link-click" data-sound="fp" ></div>
+	<div class="rectangular-left-o1 loud-link-click" data-sound="fp" ></div>
+	<div class="rectangular-top-o1 loud-link-click" data-sound="fp" ></div>
+	<div class="rectangular-right-o1 loud-link-click" data-sound="fp" ></div>
+	<div class="triangle-o1"></div>
+</div>
+
+<!--r-->
+<div class="random"style="position:absolute">
+	<div class="rectangular-right-r1 loud-link-click"
+	data-sound="fp"></div>
+	<div class="triangle-r1"></div>
+</div>
+
+<!--i-->
+<div class="random"style="position:absolute">
+	<div class="rectangular-left-i1 loud-link-click"
+	data-sound="fp"></div>
+	<div class="triangle-i1"></div>
+</div>
+
+<!--g-->
+<div class="random"style="position:absolute">
+	<div class="rectangular-right-g1 loud-link-click"
+	data-sound="fp"></div>
+	<div class="rectangular-bottom-g1 loud-link-click"
+	data-sound="fp"></div>
+	<div class="triangle-g1"></div>
+</div>
+
+<!--a-->
+<div class="random"style="position:absolute">
+	<div class="rectangular-top-a1 loud-link-click"
+	data-sound="fp"></div>
+	<div class="rectangular-right-a1 loud-link-click"
+	data-sound="fp"></div>
+	<div class="triangle-a1"></div>
+</div>
+
+<!--m-->
+<div class="random"style="position:absolute">
+	<div class="rectangular-right-m1 loud-link-click"
+	data-sound="fp"></div>
+	<div class="rectangular-left-m1 loud-link-click"
+	data-sound="fp"></div>
+	<div class="triangle-m1"></div>
+</div>
+
+<!--i2-->
+<div class="random"style="position:absolute">
+	<div class="rectangular-left-i2 loud-link-click"
+	data-sound="fp"></div>
+	<div class="triangle-i2"></div>
+</div>
+
+<!--hover on everything-->
+<section class="change">
+  <div></div>
+  <div></div>
+  <div></div>
+</section>
+
+<!--random placement-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+	
+	$(document).ready(function(){
+
+		var windowWidth = $(window).width();
+		var windowHeight = $(window).height();
+
+		// console.log(windowWidth);
+		
+		$('.random').each(function(){
+			
+			var top = 0 + Math.floor(Math.random() * windowHeight);
+			var left = 0 + Math.floor(Math.random() * windowWidth);
+
+			$(this).css({ 'top': top+'px', 'left': left+'px' });
+			
+		});
+	});
+
+</script>
+
+<script src="loudlinks.min.js"></script>
+</body>
+</html>

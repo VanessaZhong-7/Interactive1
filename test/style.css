@@ -1,0 +1,50 @@
+* {
+	margin:0px;
+	padding: 0px;
+}
+
+.rectangular-b1{
+	width:30px;
+	height:600px;
+	background:#c6b6e2;
+	top:50px;
+	left:150px;
+	position:absolute;
+}
+
+.triangle-topleft-b1{
+	width:0;
+	height:0;
+	border-top:400px solid #c6b6e2;
+	border-right:400px solid transparent;
+	top:250px;
+	left:150px;
+	position:absolute;
+	display: block;
+	transform-origin: bottom;
+ }
+
+.triangle-topleft-b1:hover{
+	transform:rotate(-90deg) scale(.5) translateX(60px) translateY(60px);
+	top:180px;
+}
+
+/*o*/
+.rectangular-o1{
+	width:;
+}
+
+/*hover on everything*/
+div {
+   opacity: 1.0;
+}
+div:hover {
+   opacity: 0.5;
+}
+.parent:hover > div {
+  opacity: 0.5;
+}
+
+.parent:hover > div:hover {
+  opacity: 1.0;
+}
