@@ -1,8 +1,12 @@
 
 @font-face {
-  font-family: "Graffiti City";
-  src: url("../assets/fonts/Graffiti City.otf") format("otf");
-  src: url("../assets/fonts/Graffiti City.woff") format("woff");
+    font-family: 'Graffiti City';
+    src: url('assets/font/GraffitiCity.eot');
+    src: url('assets/font/GraffitiCity.eot?#iefix') format('embedded-opentype'),
+        url('assets/font/GraffitiCity.woff2') format('woff2'),
+        url('assets/font/GraffitiCity.woff') format('woff'),
+        url('assets/font/GraffitiCity.ttf') format('truetype'),
+        url('assets/font/GraffitiCity.svg#GraffitiCity') format('svg');
 }
 
 body {
