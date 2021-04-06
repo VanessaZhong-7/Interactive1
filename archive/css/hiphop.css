@@ -11,7 +11,7 @@
 
 body {
  font-family:Graffiti City;
- background:linear-gradient(to bottom, #FF0000, #1300FF);
+ background:linear-gradient(to bottom, #FF0000,#1300FF,#0090E7);
  margin: 40px;
  font:Graffiti City, Arial;
  background-size:100% 100%;
@@ -24,8 +24,8 @@ body {
 .wrapper {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(30, 150px);
-  grid-template-rows: repeat(30, 150px);
+  grid-template-columns: repeat(10, 150px);
+  grid-template-rows: repeat(9, 150px);
   background-color: none;
 }
 
@@ -82,7 +82,7 @@ body {
 
 .d {
   grid-column: 3 / 5;
-  /*grid-row: 3 / 6;*/
+  grid-row: 4 / 5;
 }
 
 .e {
@@ -92,7 +92,7 @@ body {
 }
 
 .e:hover{
-  background: linear-gradient(to top, #FF3CAC, #2B86C5);  
+  background: linear-gradient(to top, #74EBD5, #9FACE6);  
   display: block;
   cursor: url('../assets/cursor/pointer.png'), auto;
   align-self: stretch;
@@ -100,7 +100,7 @@ body {
 
 .f{
 	grid-column:3 / 5;
-	/*grid-row:3 / 4;*/
+	grid-row:3 / 4;
 }
 
 .g{
@@ -123,6 +123,13 @@ body {
 .j{
 	grid-column:7 / 9;
 	grid-row:2 / 4;
+}
+
+.j:hover{
+  background: linear-gradient(to bottom, #FFE53B, #FF2525);  
+  display: block;
+  cursor: url('../assets/cursor/pointer.png'), auto;
+  align-self: stretch;
 }
 
 .k{
