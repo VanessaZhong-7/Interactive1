@@ -15,7 +15,7 @@ body {
  margin: 40px;
  font:Graffiti City, Arial;
  background-size:100% 100%;
- background-attachment: fixed;
+ /*background-attachment: fixed;*/
  cursor: url('../assets/cursor/default.png'), default;
 /* cursor: url('../assets/cursor/default.png'), auto;*/
  }
