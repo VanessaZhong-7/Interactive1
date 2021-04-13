@@ -1,6 +1,8 @@
 @font-face {
   font-family: "stick";
   src: url("../assets/fonts/Stick-Regular.ttf") format("ttf");
+  src: url("../assets/fonts/Stick-Regular.woff2") format('woff2'),
+        url("../assets/fonts/Stick-Regular.woff") format('woff');
 }
 
 body {
