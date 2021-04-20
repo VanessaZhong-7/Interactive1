@@ -15,4 +15,36 @@ body {
 p {
 	background: transparent;
 }
+
+button{
+	font-size: 1rem;
+	font-weight: bold;
+	border: 2px solid var(--accent-color);
+	background: transparent;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+}
+
+button:hover{
+	background: #00bcd4;
+	cursor: pointer;
+}
+
+/*	DARK MODE STYLES GO HERE */
+body.darkmode {
+	background: black;
+	color: white;
+
+	/*	redefine a CSS variable */
+	--accent-color: rgb(255,200,0);
+}
+
+body.darkmode button{
+	color: white;
+}
+
+body.darkmode{
+	background:black;
+}
 /*个人网页*/
