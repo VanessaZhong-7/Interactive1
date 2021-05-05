@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About Richard Brautigan</title>
+	<link rel="stylesheet" href="js/jquery.pagepiling.css">
+	<link rel="stylesheet" href="css/intro.css">
+
+</head>
+
+<body>
+	<div id="pagepiling">
+	<div class="section s1">
+		<div class="text-container">
+		<h2>Early life</h2>
+		<p class="desc">
+				Richard Brautigan was born in Tacoma, Washington. 
+He had a difficult childhood, and he did not attend college. When he was in his 20s, he moved to San Francisco, California.
+In 1938, Brautigan and his mother began living with a man named Arthur Martin Titland. 
+Many of Brautigan's childhood experiences are included in the poems and stories that he wrote from as early as the age of 12. 
+His novel So the Wind Won't Blow It All Away is loosely based on childhood experiences, including an incident in which Brautigan accidentally shot the brother of a close friend in the ear, injuring him only slightly.
+			</p>
+		</div>
+	</div>
+	<div class="section s2">
+		<div class="text-container">
+		<h2>Career</h2>
+		<p class="desc">
+			In San Francisco, Brautigan sought to establish himself as a writer. 
+He was known for handing out his poetry on the streets and performing at poetry clubs. 
+In the 1970s Brautigan experimented with literary genres. He published five novels (the first of which, The Abortion: An Historical Romance 1966, had been written in the mid-1960s) and a collection of short stories, Revenge of the Lawn (1971).
+Brautigan's writings are characterized by a remarkable and humorous imagination. 
+The permeation of inventive metaphors lent even his prose works the feeling of poetry. </p>
+</div>
+	</div>
+	<div class="section s3">
+		<div class="text-container">
+		<h2>Personal life</h2>
+		<p class="desc">
+			Brautigan remarried on December 1, 1977, to the Japanese-born Akiko Yoshimura, whom he met in July 1976 while living in Tokyo. 
+The couple settled in Pine Creek, Park County, Montana, for two years. Brautigan and Yoshimura divorced in 1980.
+He had a relationship with a San Francisco woman named Marcia Clay from 1981 to 1982. 
+He also pursued a brief relationship with Janice Meissner, a woman from the North Beach community of San Francisco. 
+Brautigan was an alcoholic throughout his adult life and suffered years of despair; according to his daughter, he often mentioned suicide over a period of more than a decade before ending his life.
+		</p>
+	</div>
+	</div>
+	<div class="section s4">
+		<div class="text-container">
+		<h2>Legacy</h2>
+		<p class="desc">
+			Because Brautigan frequently wrote in first-person and included locations and events with which he is associated, readers might assume his work is autobiographical. 
+Writing in 1972, Long Island University professor Terrence Malley points out that "Brautigan's books are for the most part both directly autobiographical and curiously elusive.
+It's usually difficult to separate confession from whimsy in Brautigan's writing.
+		</p>
+		<a class="button" href="homepage.html">Back to the homepage</a>
+	</div>
+</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="js/jquery.pagepiling.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+	$('#pagepiling').pagepiling({
+		navigation: {
+            'textColor': '#fff',
+            'bulletsColor': '#fff',
+            'position': 'right',
+            'tooltips': ['Early life', 'Career', 'Personal life', 'Legacy']
+        }
+	});
+});
+</script>
+</body>
+</html>
