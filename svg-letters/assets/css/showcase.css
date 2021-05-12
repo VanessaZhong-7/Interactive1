@@ -53,3 +53,16 @@ svg:hover line{
 
 
 }
+
+.button{
+	color:#c6b6e2;
+	background-color:#000;
+	text-decoration: none;
+	height: 1.2em;
+	padding:3px 6px;
+	margin:10px 0;
+	position: absolute;
+	top: 20px;
+	left:137px;
+	font-weight: 700;
+}
